@@ -212,16 +212,26 @@ align-items: center;
       justify-content: center;
       column-gap: 6rem;
       padding-bottom: 3rem;
-      padding-top: 362%;
+      padding-top: 300vh;
     }
   }
+
+  @media screen and (max-width: 460px){
+    .contact__container {
+      grid-template-columns: repeat(1,max-content);
+      justify-content: center;
+      column-gap: 6rem;
+      padding-bottom: 3rem;
+      padding-top: 300vh;
+right: 2vh;      }
+    }
     @media screen and (max-width: 415px){
       .contact__container {
         grid-template-columns: repeat(1,max-content);
         justify-content: center;
         column-gap: 6rem;
         padding-bottom: 3rem;
-        padding-top: 250vh;
+        padding-top: 290vh;
 right: 2vh;      }
 
         

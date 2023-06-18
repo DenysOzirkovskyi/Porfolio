@@ -79,7 +79,7 @@
     opacity: 1;
     position: absolute;
     top: 16vh;
-    right: 20%;
+    right: 0%;
     bottom: 0;
     left: 22%;
     margin: auto;
@@ -88,28 +88,51 @@
   
     .solid-logo {
       position: absolute;
-      top: -4%;
-      right: auto;
+      top: 2%;
+      right: 20vh;
       bottom: auto;
       left: 0;
       margin: auto;
-      width:107%;
+      width:87%;
       opacity: 1;
       transform: rotateZ(30deg) !important;
       z-index: 1;
-      padding-left:16.19vh;
+      padding-left:1.19vh;
 
     }
   }
   
-  .svg-container {
-    stroke: #000000;
-    stroke-width: 100;
+}
+@media screen and (max-width: 460px){
+
+
+  .logo-container {
+    z-index: 0;
+    width: 90%;
+    height: 80%;
+    opacity: 1;
+    position: absolute;
+    
   
+   
+    .solid-logo {
+      position: absolute;
+      top: 11%;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+      width:60%;
+      opacity: 1;
+      transform: rotateZ(30deg) !important;
+      z-index: 1;
+    }
   }
+  
 
 
 }
+
+
 
 @media screen and (max-width: 415px){
 
