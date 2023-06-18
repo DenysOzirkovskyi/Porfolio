@@ -72,7 +72,7 @@ height: 100%;
     -moz-osx-font-smoothing: grayscale;
     background: #FBFAF5;
     display: flex;
-    min-height: 100vh;
+    min-height: 200vh;
   height: 100%;
     scroll-snap-type: y mandatory ;
    max-width: 459px;
