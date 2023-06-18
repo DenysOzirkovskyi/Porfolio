@@ -148,6 +148,11 @@
     }
   }
   @media screen and (max-width: 415px) {
+    #MainContainer{
+right: 11.2vh; 
+}
+    
+    
     .text-zone {
       position: absolute;
       transform: translateY(-50%);

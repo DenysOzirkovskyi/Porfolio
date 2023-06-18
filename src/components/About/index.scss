@@ -244,19 +244,21 @@ transform: translateX(0);
 
     }
     @media screen and (max-width: 415px){
+     
+     
       .myImage{
-        margin-left: 10vh ;
+        margin-left: 20vh ;
           }
     
           #text-zone2{
             margin-top: 65%;
-            width: 400px;
+            width: 35vh;
             margin-right: 100px;
             font-family: 'Coolvetica';
             
           }
           .text-zone3{
-            padding-left: 12%;
+            padding-left: 60%;
             margin-top: 25%;
             width: 400px;
             margin-right: 800px;
@@ -265,15 +267,15 @@ transform: translateX(0);
     
     
           .stage-cube-cont {
-            width: 50%;
+            width: 100%;
             height:40%;
             top: 0;
             padding-top: 18%;
             margin-left: 0;
             position: absolute;
-            right: 2vh;
+            left: 18vh;
             overflow: hidden;
-            margin-top: 123%;
+            margin-top: 150vh;
             
           
           }
@@ -284,46 +286,8 @@ transform: translateX(0);
           }
           #containerAbotPage{
           margin-top: 60vh;
-           
-          }
+right: 19vh;          }
           
     
     }
-    @media screen and (max-width: 576px){
-    
-      .myImage{
-        margin-left: 39% ;
-        margin-top: 0.001vh;
-          }
-    
-          #text-zone2{
-            margin: 3%;
-            margin-top: 25vh;
-            margin-left: 45%;
-            font-size: 12vh;
-            width: 80%;
-          }
-    
-          .stage-cube-cont {
-            width: 100%;
-            height:50%;
-            top: 0;
-            padding-top: 88%;
-            margin-left: 0;
-            position: absolute;
-            right: -30%;
-            overflow: hidden;
-            margin-top: 200%;
-            
-          
-          }
-          .text-zone3{
-            padding-left: 46%;
-            margin-top: 25%;
-            width: 400px;
-            margin-right: 800px;
-        
-          }
-    
-    
-    }
+   
